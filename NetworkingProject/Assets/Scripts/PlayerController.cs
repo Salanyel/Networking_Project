@@ -17,7 +17,7 @@ public class PlayerController : NetworkBehaviour {
 
         detectInput();
 
-    }
+    }    
 
     /// <summary>
     /// Detects the input and displace the player
@@ -29,5 +29,13 @@ public class PlayerController : NetworkBehaviour {
 
         transform.Rotate(0, x, 0);
         transform.Translate(0, 0, z);
+    }
+
+    /// <summary>
+    /// Override: Behavior only done by the local player at the start
+    /// </summary>
+    public override void OnStartLocalPlayer()
+    {
+        GetComponent<MeshRenderer>().material.color = Color.blue;
     }
 }
