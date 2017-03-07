@@ -18,30 +18,12 @@ Platform assembly: D:\GitHub\Networking_Project\NetworkingProject\StandAlone\Uni
 Loading D:\GitHub\Networking_Project\NetworkingProject\StandAlone\UnityNetworkingMultiplayer_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: D:\GitHub\Networking_Project\NetworkingProject\StandAlone\UnityNetworkingMultiplayer_Data\Managed\UnityEngine.UI.dll (this message is harmless)
 Loading D:\GitHub\Networking_Project\NetworkingProject\StandAlone\UnityNetworkingMultiplayer_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.111 seconds
+- Completed reload, in  0.106 seconds
 Platform assembly: D:\GitHub\Networking_Project\NetworkingProject\StandAlone\UnityNetworkingMultiplayer_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: D:\GitHub\Networking_Project\NetworkingProject\StandAlone\UnityNetworkingMultiplayer_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 0.547965 ms
-Dead!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
-
-Dead!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
-
-Dead!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
-
-Dead!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
-
-Setting up 2 worker threads for Enlighten.
-  Thread -> id: 2f6c -> priority: 1 
-  Thread -> id: 1660 -> priority: 1 
+UnloadTime: 0.637772 ms
+Log: connection {1} has been disconnected by timeout; address {::ffff:127.0.0.1:54220}
