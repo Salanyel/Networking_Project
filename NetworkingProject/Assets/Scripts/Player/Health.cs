@@ -1,13 +1,14 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.Networking;
 
-public class Health : MonoBehaviour {
+public class Health : NetworkBehaviour {
 
     /// <summary>
     /// Value for the max health
     /// </summary>
     public const int c_maxHealth = 100;
 
+    [SyncVar(hook ="OnChangeHealth")]
     public int m_currentHealth = c_maxHealth;
 
     public RectTransform m_healthBar;
@@ -18,14 +19,23 @@ public class Health : MonoBehaviour {
     /// <param name="p_amount">int: amount to suppress</param>
     public void takeDamage(int p_amount)
     {
+
+        //Only the server apply the damages
+        if (!isServer)
+        {
+            return;
+        }            
+
         m_currentHealth -= p_amount;
 
         if (m_currentHealth <= 0)
         {
             Debug.Log("Dead!");
-        }
+        }        
+    }
 
-        m_healthBar.sizeDelta = new Vector2(m_currentHealth, m_healthBar.sizeDelta.y);
-
+    void OnChangeHealth(int p_health)
+    {
+        m_healthBar.sizeDelta = new Vector2(p_health, m_healthBar.sizeDelta.y);
     }
 }
