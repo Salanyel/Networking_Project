@@ -1,0 +1,79 @@
+.TH "Health" 3 "Thu Mar 9 2017" "Networking_Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Health \- Class used to manage the health of a character  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits NetworkBehaviour\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBtakeDamage\fP (int p_amount)"
+.br
+.RI "\fIFunction to take damage and triggered outside this class \fP"
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "const int \fBc_maxHealth\fP = 100"
+.br
+.RI "\fIValue for the max health \fP"
+.ti -1c
+.RI "bool \fBm_destroyOnDeath\fP"
+.br
+.RI "\fISet if the GameObject shall be destroyed on death \fP"
+.ti -1c
+.RI "int \fBm_currentHealth\fP = \fBc_maxHealth\fP"
+.br
+.RI "\fICurrent health of the character \fP"
+.ti -1c
+.RI "RectTransform \fBm_healthBar\fP"
+.br
+.RI "\fIRectTransform to display the healthBar \fP"
+.in -1c
+.SH "Detailed Description"
+.PP 
+Class used to manage the health of a character 
+
+
+.SH "Member Function Documentation"
+.PP 
+.SS "void Health\&.takeDamage (int p_amount)"
+
+.PP
+Function to take damage and triggered outside this class 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIp_amount\fP int: amount to suppress
+.RE
+.PP
+
+.SH "Member Data Documentation"
+.PP 
+.SS "const int Health\&.c_maxHealth = 100"
+
+.PP
+Value for the max health 
+.SS "int Health\&.m_currentHealth = \fBc_maxHealth\fP"
+
+.PP
+Current health of the character 
+.SS "bool Health\&.m_destroyOnDeath"
+
+.PP
+Set if the GameObject shall be destroyed on death 
+.SS "RectTransform Health\&.m_healthBar"
+
+.PP
+RectTransform to display the healthBar 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Networking_Project from the source code\&.

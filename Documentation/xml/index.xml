@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.11">
+  <compound refid="class_billboard" kind="class"><name>Billboard</name>
+    <member refid="class_billboard_1ae8971268f28d0abf867a1af3de57dda6" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_bullet" kind="class"><name>Bullet</name>
+    <member refid="class_bullet_1adf0023cd44c5817e48e09109ca2f47bf" kind="variable"><name>m_bulletDamage</name></member>
+    <member refid="class_bullet_1a6c1f4680918f6fb4f8020a6d5a1cbef5" kind="function"><name>OnCollisionEnter</name></member>
+  </compound>
+  <compound refid="class_enemy_spawner" kind="class"><name>EnemySpawner</name>
+    <member refid="class_enemy_spawner_1a95e6c9cd1e250c1713a159a6c9afa09d" kind="variable"><name>m_enemyPrefab</name></member>
+    <member refid="class_enemy_spawner_1ab962d13c00da419193aab750a5e036a4" kind="variable"><name>m_numberOfEnemies</name></member>
+    <member refid="class_enemy_spawner_1a5af094d0bc3a4af18c59ba75810b644b" kind="function"><name>OnStartServer</name></member>
+  </compound>
+  <compound refid="class_health" kind="class"><name>Health</name>
+    <member refid="class_health_1ac363b35d2962e4ed5592de9be2ace658" kind="variable"><name>c_maxHealth</name></member>
+    <member refid="class_health_1adcfd8b8186d13c9cfc1dfe4ccd673a27" kind="variable"><name>m_destroyOnDeath</name></member>
+    <member refid="class_health_1a95449c8a3730c64e5b23971ce10f1ab2" kind="variable"><name>m_currentHealth</name></member>
+    <member refid="class_health_1a67b20cb55181ff23655dfcf8ec8c2b6f" kind="variable"><name>m_healthBar</name></member>
+    <member refid="class_health_1ae63950d4ef73baab05b42ddb4c23b957" kind="variable"><name>m_spawnPoints</name></member>
+    <member refid="class_health_1a31ffeaccdd59ab1f570db4fea02ff6cf" kind="function"><name>Start</name></member>
+    <member refid="class_health_1af19b12d574b937ba2af2dd7abcd8325f" kind="function"><name>OnChangeHealth</name></member>
+    <member refid="class_health_1adfd7043e58518923d2dccf3be0696c46" kind="function"><name>RpcRespawn</name></member>
+    <member refid="class_health_1a63c951e59b2892952e2b3d220b529051" kind="function"><name>takeDamage</name></member>
+  </compound>
+  <compound refid="class_player_controller" kind="class"><name>PlayerController</name>
+    <member refid="class_player_controller_1a0c58f7a2e8af943a9c5d6118a50b3918" kind="variable"><name>m_scaleHorizontal</name></member>
+    <member refid="class_player_controller_1adb91f012dd2c0c560af95659e6b00c93" kind="variable"><name>m_scaleVertical</name></member>
+    <member refid="class_player_controller_1afb589a32b1b84f211a299d21c8c7e6cd" kind="variable"><name>m_bulletPrefab</name></member>
+    <member refid="class_player_controller_1a6a690f28cd4d8e5ca8646399018f32d3" kind="variable"><name>m_bulletSpawn</name></member>
+    <member refid="class_player_controller_1aaa6e3cb51fe1a5f522819bdda6d3117e" kind="variable"><name>m_bulletSpeed</name></member>
+    <member refid="class_player_controller_1a893968aecd67ee4692ff161522509527" kind="variable"><name>m_bulletLifeTime</name></member>
+    <member refid="class_player_controller_1a8128819b755febf172343aa8b40a68e2" kind="variable"><name>m_cameraPosition</name></member>
+    <member refid="class_player_controller_1a02ecdce13db0f91683c569a68f96b0c8" kind="variable"><name>m_cameraRotation</name></member>
+    <member refid="class_player_controller_1ae8bc83dffb99867a04be016473ed2c43" kind="function"><name>Update</name></member>
+    <member refid="class_player_controller_1a25fb2b47a84fe940cbc9fa4e31f7652a" kind="function"><name>detectInput</name></member>
+    <member refid="class_player_controller_1a98a1c918eaa11dc38dd920c7e53ffb13" kind="function"><name>CmdFire</name></member>
+    <member refid="class_player_controller_1aa274be913417ca85d0cf5fc0afd93696" kind="function"><name>OnStartLocalPlayer</name></member>
+  </compound>
+  <compound refid="namespace_system_1_1_collections" kind="namespace"><name>System::Collections</name>
+  </compound>
+  <compound refid="namespace_unity_engine" kind="namespace"><name>UnityEngine</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_networking" kind="namespace"><name>UnityEngine::Networking</name>
+  </compound>
+  <compound refid="_bullet_8cs" kind="file"><name>Bullet.cs</name>
+  </compound>
+  <compound refid="_enemy_spawner_8cs" kind="file"><name>EnemySpawner.cs</name>
+  </compound>
+  <compound refid="_billboard_8cs" kind="file"><name>Billboard.cs</name>
+  </compound>
+  <compound refid="_health_8cs" kind="file"><name>Health.cs</name>
+  </compound>
+  <compound refid="_player_controller_8cs" kind="file"><name>PlayerController.cs</name>
+  </compound>
+  <compound refid="dir_d26f753749c6caa70ea940d1f548ce74" kind="dir"><name>D:/GitHub/Networking_Project/NetworkingProject/Assets</name>
+  </compound>
+  <compound refid="dir_4d4b5cc8169b61a05018067b3f69ce6e" kind="dir"><name>D:/GitHub/Networking_Project/NetworkingProject</name>
+  </compound>
+  <compound refid="dir_1aff069c7dd982e1ebd0e76e7689f7d6" kind="dir"><name>D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Objects</name>
+  </compound>
+  <compound refid="dir_9ba4ef631ddb95d258a1474f3febb791" kind="dir"><name>D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player</name>
+  </compound>
+  <compound refid="dir_fee14628e78544b7c0cd87410df21619" kind="dir"><name>D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts</name>
+  </compound>
+</doxygenindex>
