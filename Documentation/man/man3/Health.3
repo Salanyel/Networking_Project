@@ -2,7 +2,8 @@
 .ad l
 .nh
 .SH NAME
-Health \- 
+Health \- Class used to manage the health of a character  
+
 .SH SYNOPSIS
 .br
 .PP
@@ -30,12 +31,17 @@ Inherits NetworkBehaviour\&.
 .ti -1c
 .RI "int \fBm_currentHealth\fP = \fBc_maxHealth\fP"
 .br
-.RI "\fICurrent health of the player \fP"
+.RI "\fICurrent health of the character \fP"
 .ti -1c
 .RI "RectTransform \fBm_healthBar\fP"
 .br
 .RI "\fIRectTransform to display the healthBar \fP"
 .in -1c
+.SH "Detailed Description"
+.PP 
+Class used to manage the health of a character 
+
+
 .SH "Member Function Documentation"
 .PP 
 .SS "void Health\&.takeDamage (int p_amount)"
@@ -58,7 +64,7 @@ Value for the max health
 .SS "int Health\&.m_currentHealth = \fBc_maxHealth\fP"
 
 .PP
-Current health of the player 
+Current health of the character 
 .SS "bool Health\&.m_destroyOnDeath"
 
 .PP

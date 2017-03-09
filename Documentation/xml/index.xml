@@ -17,6 +17,7 @@
     <member refid="class_health_1adcfd8b8186d13c9cfc1dfe4ccd673a27" kind="variable"><name>m_destroyOnDeath</name></member>
     <member refid="class_health_1a95449c8a3730c64e5b23971ce10f1ab2" kind="variable"><name>m_currentHealth</name></member>
     <member refid="class_health_1a67b20cb55181ff23655dfcf8ec8c2b6f" kind="variable"><name>m_healthBar</name></member>
+    <member refid="class_health_1ae63950d4ef73baab05b42ddb4c23b957" kind="variable"><name>m_spawnPoints</name></member>
     <member refid="class_health_1a31ffeaccdd59ab1f570db4fea02ff6cf" kind="function"><name>Start</name></member>
     <member refid="class_health_1af19b12d574b937ba2af2dd7abcd8325f" kind="function"><name>OnChangeHealth</name></member>
     <member refid="class_health_1adfd7043e58518923d2dccf3be0696c46" kind="function"><name>RpcRespawn</name></member>
@@ -29,6 +30,8 @@
     <member refid="class_player_controller_1a6a690f28cd4d8e5ca8646399018f32d3" kind="variable"><name>m_bulletSpawn</name></member>
     <member refid="class_player_controller_1aaa6e3cb51fe1a5f522819bdda6d3117e" kind="variable"><name>m_bulletSpeed</name></member>
     <member refid="class_player_controller_1a893968aecd67ee4692ff161522509527" kind="variable"><name>m_bulletLifeTime</name></member>
+    <member refid="class_player_controller_1a8128819b755febf172343aa8b40a68e2" kind="variable"><name>m_cameraPosition</name></member>
+    <member refid="class_player_controller_1a02ecdce13db0f91683c569a68f96b0c8" kind="variable"><name>m_cameraRotation</name></member>
     <member refid="class_player_controller_1ae8bc83dffb99867a04be016473ed2c43" kind="function"><name>Update</name></member>
     <member refid="class_player_controller_1a25fb2b47a84fe940cbc9fa4e31f7652a" kind="function"><name>detectInput</name></member>
     <member refid="class_player_controller_1a98a1c918eaa11dc38dd920c7e53ffb13" kind="function"><name>CmdFire</name></member>

@@ -416,6 +416,8 @@ MonoBehaviour:
   m_bulletSpawn: {fileID: 449578}
   m_bulletSpeed: 6
   m_bulletLifeTime: 2
+  m_cameraPosition: {x: 1.28, y: 1.5, z: -3.5}
+  m_cameraRotation: {x: 0, y: 0, z: 0}
 --- !u!114 &11488682
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -474,6 +476,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e59519b9762ab7b4d8e6da3afe949936, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_destroyOnDeath: 0
   m_currentHealth: 100
   m_healthBar: {fileID: 22453510}
 --- !u!136 &13625084
