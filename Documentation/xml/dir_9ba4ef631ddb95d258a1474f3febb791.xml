@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_9ba4ef631ddb95d258a1474f3febb791" kind="dir">
+    <compoundname>D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player</compoundname>
+    <innerfile refid="_billboard_8cs">Billboard.cs</innerfile>
+    <innerfile refid="_health_8cs">Health.cs</innerfile>
+    <innerfile refid="_player_controller_8cs">PlayerController.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/"/>
+  </compounddef>
+</doxygen>

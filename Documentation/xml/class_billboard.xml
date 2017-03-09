@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="class_billboard" kind="class" language="C#" prot="public">
+    <compoundname>Billboard</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_billboard_1ae8971268f28d0abf867a1af3de57dda6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Billboard.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/Billboard.cs" line="6" column="1" bodyfile="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/Billboard.cs" bodystart="6" bodyend="9"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="0">
+        <label>Billboard</label>
+        <link refid="class_billboard"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Billboard</label>
+        <link refid="class_billboard"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/Billboard.cs" line="4" column="1" bodyfile="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/Billboard.cs" bodystart="4" bodyend="10"/>
+    <listofallmembers>
+      <member refid="class_billboard_1ae8971268f28d0abf867a1af3de57dda6" prot="private" virt="non-virtual"><scope>Billboard</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

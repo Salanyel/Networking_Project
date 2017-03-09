@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="class_health" kind="class" language="C#" prot="public">
+    <compoundname>Health</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NetworkBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_health_1ac363b35d2962e4ed5592de9be2ace658" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int Health.c_maxHealth</definition>
+        <argsstring></argsstring>
+        <name>c_maxHealth</name>
+        <initializer>= 100</initializer>
+        <briefdescription>
+<para>Value for the max health </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/Health.cs" line="9" column="1" bodyfile="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/Health.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_health_1adcfd8b8186d13c9cfc1dfe4ccd673a27" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Health.m_destroyOnDeath</definition>
+        <argsstring></argsstring>
+        <name>m_destroyOnDeath</name>
+        <briefdescription>
+<para>Set if the GameObject shall be destroyed on death </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/Health.cs" line="14" column="1" bodyfile="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/Health.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_health_1a95449c8a3730c64e5b23971ce10f1ab2" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Health.m_currentHealth</definition>
+        <argsstring></argsstring>
+        <name>m_currentHealth</name>
+        <initializer>= <ref refid="class_health_1ac363b35d2962e4ed5592de9be2ace658" kindref="member">c_maxHealth</ref></initializer>
+        <briefdescription>
+<para>Current health of the player </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/Health.cs" line="20" column="1" bodyfile="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/Health.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_health_1a67b20cb55181ff23655dfcf8ec8c2b6f" prot="public" static="no" mutable="no">
+        <type>RectTransform</type>
+        <definition>RectTransform Health.m_healthBar</definition>
+        <argsstring></argsstring>
+        <name>m_healthBar</name>
+        <briefdescription>
+<para>RectTransform to display the healthBar </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/Health.cs" line="25" column="1" bodyfile="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/Health.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_health_1a31ffeaccdd59ab1f570db4fea02ff6cf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Health.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+<para>Unity Start methods </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/Health.cs" line="30" column="1" bodyfile="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/Health.cs" bodystart="30" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_health_1af19b12d574b937ba2af2dd7abcd8325f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Health.OnChangeHealth</definition>
+        <argsstring>(int p_health)</argsstring>
+        <name>OnChangeHealth</name>
+        <param>
+          <type>int</type>
+          <declname>p_health</declname>
+        </param>
+        <briefdescription>
+<para>Change the health of the player </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>p_health</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>int: value to soustracte</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/Health.cs" line="70" column="1" bodyfile="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/Health.cs" bodystart="70" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_health_1adfd7043e58518923d2dccf3be0696c46" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Health.RpcRespawn</definition>
+        <argsstring>()</argsstring>
+        <name>RpcRespawn</name>
+        <briefdescription>
+<para>Client function to repercute to the server to respawn the player </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/Health.cs" line="79" column="1" bodyfile="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/Health.cs" bodystart="79" bodyend="86"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_health_1a63c951e59b2892952e2b3d220b529051" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Health.takeDamage</definition>
+        <argsstring>(int p_amount)</argsstring>
+        <name>takeDamage</name>
+        <param>
+          <type>int</type>
+          <declname>p_amount</declname>
+        </param>
+        <briefdescription>
+<para>Function to take damage and triggered outside this class </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>p_amount</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>int: amount to suppress</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/Health.cs" line="39" column="1" bodyfile="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/Health.cs" bodystart="39" bodyend="64"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="13">
+        <label>NetworkBehaviour</label>
+      </node>
+      <node id="12">
+        <label>Health</label>
+        <link refid="class_health"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="15">
+        <label>NetworkBehaviour</label>
+      </node>
+      <node id="14">
+        <label>Health</label>
+        <link refid="class_health"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/Health.cs" line="4" column="1" bodyfile="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/Health.cs" bodystart="4" bodyend="87"/>
+    <listofallmembers>
+      <member refid="class_health_1ac363b35d2962e4ed5592de9be2ace658" prot="public" virt="non-virtual"><scope>Health</scope><name>c_maxHealth</name></member>
+      <member refid="class_health_1a95449c8a3730c64e5b23971ce10f1ab2" prot="public" virt="non-virtual"><scope>Health</scope><name>m_currentHealth</name></member>
+      <member refid="class_health_1adcfd8b8186d13c9cfc1dfe4ccd673a27" prot="public" virt="non-virtual"><scope>Health</scope><name>m_destroyOnDeath</name></member>
+      <member refid="class_health_1a67b20cb55181ff23655dfcf8ec8c2b6f" prot="public" virt="non-virtual"><scope>Health</scope><name>m_healthBar</name></member>
+      <member refid="class_health_1af19b12d574b937ba2af2dd7abcd8325f" prot="private" virt="non-virtual"><scope>Health</scope><name>OnChangeHealth</name></member>
+      <member refid="class_health_1adfd7043e58518923d2dccf3be0696c46" prot="private" virt="non-virtual"><scope>Health</scope><name>RpcRespawn</name></member>
+      <member refid="class_health_1a31ffeaccdd59ab1f570db4fea02ff6cf" prot="private" virt="non-virtual"><scope>Health</scope><name>Start</name></member>
+      <member refid="class_health_1a63c951e59b2892952e2b3d220b529051" prot="public" virt="non-virtual"><scope>Health</scope><name>takeDamage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

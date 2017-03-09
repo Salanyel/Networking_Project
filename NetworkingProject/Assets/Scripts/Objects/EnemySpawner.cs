@@ -1,10 +1,20 @@
 ﻿using UnityEngine;
 using UnityEngine.Networking;
 
+/// <summary>
+/// Class used to spawn enemies
+/// </summary>
 public class EnemySpawner : NetworkBehaviour
 {
 
+    /// <summary>
+    /// Prefab to instantiate for the enemies
+    /// </summary>
     public GameObject m_enemyPrefab;
+
+    /// <summary>
+    /// Enemies number to spawn
+    /// </summary>
     public int m_numberOfEnemies;
 
     /// <summary>
