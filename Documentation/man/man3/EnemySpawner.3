@@ -2,7 +2,8 @@
 .ad l
 .nh
 .SH NAME
-EnemySpawner \- 
+EnemySpawner \- Class used to spawn enemies  
+
 .SH SYNOPSIS
 .br
 .PP
@@ -22,10 +23,17 @@ Inherits NetworkBehaviour\&.
 .ti -1c
 .RI "GameObject \fBm_enemyPrefab\fP"
 .br
+.RI "\fIPrefab to instantiate for the enemies \fP"
 .ti -1c
 .RI "int \fBm_numberOfEnemies\fP"
 .br
+.RI "\fIEnemies number to spawn \fP"
 .in -1c
+.SH "Detailed Description"
+.PP 
+Class used to spawn enemies 
+
+
 .SH "Member Function Documentation"
 .PP 
 .SS "override void EnemySpawner\&.OnStartServer ()"
@@ -36,8 +44,12 @@ Override: function called on the server / Generate a random number of enemies
 .PP 
 .SS "GameObject EnemySpawner\&.m_enemyPrefab"
 
+.PP
+Prefab to instantiate for the enemies 
 .SS "int EnemySpawner\&.m_numberOfEnemies"
 
+.PP
+Enemies number to spawn 
 
 .SH "Author"
 .PP 

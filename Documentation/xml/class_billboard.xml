@@ -15,11 +15,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/Billboard.cs" line="6" column="1" bodyfile="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/Billboard.cs" bodystart="6" bodyend="9"/>
+        <location file="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/Billboard.cs" line="9" column="1" bodyfile="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/Billboard.cs" bodystart="9" bodyend="12"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
-    </briefdescription>
+<para>Class to rotate a UIElement in the world to face the main camera </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
@@ -44,7 +44,7 @@
         <label>MonoBehaviour</label>
       </node>
     </collaborationgraph>
-    <location file="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/Billboard.cs" line="4" column="1" bodyfile="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/Billboard.cs" bodystart="4" bodyend="10"/>
+    <location file="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/Billboard.cs" line="7" column="1" bodyfile="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/Billboard.cs" bodystart="7" bodyend="13"/>
     <listofallmembers>
       <member refid="class_billboard_1ae8971268f28d0abf867a1af3de57dda6" prot="private" virt="non-virtual"><scope>Billboard</scope><name>Update</name></member>
     </listofallmembers>

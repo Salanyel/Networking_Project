@@ -37,6 +37,12 @@ public class PlayerController : NetworkBehaviour {
     /// </summary>
     public float m_bulletLifeTime = 2.0f;
 
+    /// <summary>
+    /// Position to move the camera to the right position to follow the player
+    /// </summary>
+    public Vector3 m_cameraPosition;
+    public Vector3 m_cameraRotation;
+
     // Update is called once per frame
     void Update () {
         if (!isLocalPlayer)
@@ -91,5 +97,9 @@ public class PlayerController : NetworkBehaviour {
     public override void OnStartLocalPlayer()
     {
         GetComponent<MeshRenderer>().material.color = Color.blue;
+
+        Camera.main.transform.SetParent(gameObject.transform);
+        Camera.main.transform.localPosition = m_cameraPosition;
+        Camera.main.transform.localEulerAngles = m_cameraPosition;
     }
 }

@@ -11,12 +11,12 @@
         <name>m_scaleHorizontal</name>
         <initializer>= 150.0f</initializer>
         <briefdescription>
-        </briefdescription>
+<para>Horizontal scale for the displacement </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/PlayerController.cs" line="7" column="1" bodyfile="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/PlayerController.cs" bodystart="7" bodyend="-1"/>
+        <location file="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/PlayerController.cs" line="13" column="1" bodyfile="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/PlayerController.cs" bodystart="13" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_player_controller_1adb91f012dd2c0c560af95659e6b00c93" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -25,12 +25,12 @@
         <name>m_scaleVertical</name>
         <initializer>= 3.0f</initializer>
         <briefdescription>
-        </briefdescription>
+<para>Vertical scale for the displacement </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/PlayerController.cs" line="8" column="1" bodyfile="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/PlayerController.cs" bodystart="8" bodyend="-1"/>
+        <location file="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/PlayerController.cs" line="18" column="1" bodyfile="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/PlayerController.cs" bodystart="18" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_player_controller_1afb589a32b1b84f211a299d21c8c7e6cd" prot="public" static="no" mutable="no">
         <type>GameObject</type>
@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/PlayerController.cs" line="13" column="1" bodyfile="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/PlayerController.cs" bodystart="13" bodyend="-1"/>
+        <location file="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/PlayerController.cs" line="23" column="1" bodyfile="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/PlayerController.cs" bodystart="23" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_player_controller_1a6a690f28cd4d8e5ca8646399018f32d3" prot="public" static="no" mutable="no">
         <type>Transform</type>
@@ -51,12 +51,12 @@
         <argsstring></argsstring>
         <name>m_bulletSpawn</name>
         <briefdescription>
-        </briefdescription>
+<para>Spawn for the bullets </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/PlayerController.cs" line="14" column="1" bodyfile="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/PlayerController.cs" bodystart="14" bodyend="-1"/>
+        <location file="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/PlayerController.cs" line="28" column="1" bodyfile="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/PlayerController.cs" bodystart="28" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_player_controller_1aaa6e3cb51fe1a5f522819bdda6d3117e" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -65,12 +65,12 @@
         <name>m_bulletSpeed</name>
         <initializer>= 6.0f</initializer>
         <briefdescription>
-        </briefdescription>
+<para><ref refid="class_bullet" kindref="compound">Bullet</ref> speed </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/PlayerController.cs" line="15" column="1" bodyfile="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/PlayerController.cs" bodystart="15" bodyend="-1"/>
+        <location file="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/PlayerController.cs" line="33" column="1" bodyfile="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/PlayerController.cs" bodystart="33" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_player_controller_1a893968aecd67ee4692ff161522509527" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -79,12 +79,38 @@
         <name>m_bulletLifeTime</name>
         <initializer>= 2.0f</initializer>
         <briefdescription>
+<para><ref refid="class_bullet" kindref="compound">Bullet</ref> life time after its creation </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/PlayerController.cs" line="38" column="1" bodyfile="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/PlayerController.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_controller_1a8128819b755febf172343aa8b40a68e2" prot="public" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 PlayerController.m_cameraPosition</definition>
+        <argsstring></argsstring>
+        <name>m_cameraPosition</name>
+        <briefdescription>
+<para>Position to move the camera to the right position to follow the player </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/PlayerController.cs" line="43" column="1" bodyfile="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/PlayerController.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_controller_1a02ecdce13db0f91683c569a68f96b0c8" prot="public" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 PlayerController.m_cameraRotation</definition>
+        <argsstring></argsstring>
+        <name>m_cameraRotation</name>
+        <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/PlayerController.cs" line="16" column="1" bodyfile="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/PlayerController.cs" bodystart="16" bodyend="-1"/>
+        <location file="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/PlayerController.cs" line="44" column="1" bodyfile="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/PlayerController.cs" bodystart="44" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -99,7 +125,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/PlayerController.cs" line="19" column="1" bodyfile="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/PlayerController.cs" bodystart="19" bodyend="28"/>
+        <location file="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/PlayerController.cs" line="47" column="1" bodyfile="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/PlayerController.cs" bodystart="47" bodyend="56"/>
       </memberdef>
       <memberdef kind="function" id="class_player_controller_1a25fb2b47a84fe940cbc9fa4e31f7652a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -112,7 +138,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/PlayerController.cs" line="33" column="1" bodyfile="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/PlayerController.cs" bodystart="33" bodyend="45"/>
+        <location file="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/PlayerController.cs" line="61" column="1" bodyfile="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/PlayerController.cs" bodystart="61" bodyend="73"/>
       </memberdef>
       <memberdef kind="function" id="class_player_controller_1a98a1c918eaa11dc38dd920c7e53ffb13" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -125,7 +151,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/PlayerController.cs" line="51" column="1" bodyfile="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/PlayerController.cs" bodystart="51" bodyend="64"/>
+        <location file="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/PlayerController.cs" line="79" column="1" bodyfile="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/PlayerController.cs" bodystart="79" bodyend="92"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -140,11 +166,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/PlayerController.cs" line="69" column="1" bodyfile="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/PlayerController.cs" bodystart="69" bodyend="72"/>
+        <location file="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/PlayerController.cs" line="97" column="1" bodyfile="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/PlayerController.cs" bodystart="97" bodyend="104"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
-    </briefdescription>
+<para>Script to manager the control of a player </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
@@ -169,7 +195,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/PlayerController.cs" line="5" column="1" bodyfile="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/PlayerController.cs" bodystart="5" bodyend="73"/>
+    <location file="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/PlayerController.cs" line="8" column="1" bodyfile="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player/PlayerController.cs" bodystart="8" bodyend="105"/>
     <listofallmembers>
       <member refid="class_player_controller_1a98a1c918eaa11dc38dd920c7e53ffb13" prot="private" virt="non-virtual"><scope>PlayerController</scope><name>CmdFire</name></member>
       <member refid="class_player_controller_1a25fb2b47a84fe940cbc9fa4e31f7652a" prot="private" virt="non-virtual"><scope>PlayerController</scope><name>detectInput</name></member>
@@ -177,6 +203,8 @@
       <member refid="class_player_controller_1afb589a32b1b84f211a299d21c8c7e6cd" prot="public" virt="non-virtual"><scope>PlayerController</scope><name>m_bulletPrefab</name></member>
       <member refid="class_player_controller_1a6a690f28cd4d8e5ca8646399018f32d3" prot="public" virt="non-virtual"><scope>PlayerController</scope><name>m_bulletSpawn</name></member>
       <member refid="class_player_controller_1aaa6e3cb51fe1a5f522819bdda6d3117e" prot="public" virt="non-virtual"><scope>PlayerController</scope><name>m_bulletSpeed</name></member>
+      <member refid="class_player_controller_1a8128819b755febf172343aa8b40a68e2" prot="public" virt="non-virtual"><scope>PlayerController</scope><name>m_cameraPosition</name></member>
+      <member refid="class_player_controller_1a02ecdce13db0f91683c569a68f96b0c8" prot="public" virt="non-virtual"><scope>PlayerController</scope><name>m_cameraRotation</name></member>
       <member refid="class_player_controller_1a0c58f7a2e8af943a9c5d6118a50b3918" prot="public" virt="non-virtual"><scope>PlayerController</scope><name>m_scaleHorizontal</name></member>
       <member refid="class_player_controller_1adb91f012dd2c0c560af95659e6b00c93" prot="public" virt="non-virtual"><scope>PlayerController</scope><name>m_scaleVertical</name></member>
       <member refid="class_player_controller_1aa274be913417ca85d0cf5fc0afd93696" prot="public" virt="non-virtual"><scope>PlayerController</scope><name>OnStartLocalPlayer</name></member>
