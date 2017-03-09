@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_fee14628e78544b7c0cd87410df21619" kind="dir">
+    <compoundname>D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts</compoundname>
+    <innerdir refid="dir_1aff069c7dd982e1ebd0e76e7689f7d6">D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Objects</innerdir>
+    <innerdir refid="dir_9ba4ef631ddb95d258a1474f3febb791">D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Player</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/"/>
+  </compounddef>
+</doxygen>

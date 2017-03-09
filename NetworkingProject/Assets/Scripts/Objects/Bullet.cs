@@ -1,7 +1,13 @@
 ﻿using UnityEngine;
 
+/// <summary>
+/// Bullet behavior
+/// </summary>
 public class Bullet : MonoBehaviour {
 
+    /// <summary>
+    /// Damage done by each bullet
+    /// </summary>
     public int m_bulletDamage = 10;
 
     /// <summary>

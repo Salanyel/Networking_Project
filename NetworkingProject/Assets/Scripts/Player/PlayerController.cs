@@ -2,17 +2,39 @@
 using UnityEngine.Networking;
 using System.Collections;
 
+/// <summary>
+/// Script to manager the control of a player
+/// </summary>
 public class PlayerController : NetworkBehaviour {
 
+    /// <summary>
+    /// Horizontal scale for the displacement
+    /// </summary>
     public float m_scaleHorizontal = 150.0f;
+
+    /// <summary>
+    /// Vertical scale for the displacement
+    /// </summary>
     public float m_scaleVertical = 3.0f;
 
     /// <summary>
     /// Fields for the bullet
     /// </summary>
     public GameObject m_bulletPrefab;
+
+    /// <summary>
+    /// Spawn for the bullets
+    /// </summary>
     public Transform m_bulletSpawn;
+    
+    /// <summary>
+    /// Bullet speed
+    /// </summary>
     public float m_bulletSpeed = 6.0f;
+
+    /// <summary>
+    /// Bullet life time after its creation
+    /// </summary>
     public float m_bulletLifeTime = 2.0f;
 
     // Update is called once per frame

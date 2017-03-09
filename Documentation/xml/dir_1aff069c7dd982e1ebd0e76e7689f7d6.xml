@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_1aff069c7dd982e1ebd0e76e7689f7d6" kind="dir">
+    <compoundname>D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Objects</compoundname>
+    <innerfile refid="_bullet_8cs">Bullet.cs</innerfile>
+    <innerfile refid="_enemy_spawner_8cs">EnemySpawner.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Objects/"/>
+  </compounddef>
+</doxygen>
