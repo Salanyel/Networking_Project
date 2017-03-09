@@ -1,3 +1,6 @@
 # Networking_Project
 
-Actual Link : https://unity3d.com/fr/learn/tutorials/topics/multiplayer-networking/destroying-enemies?playlist=29690
+Base principle of client/server.
+One can launch the standalone to be the server
+The other can be the player
+You can shoot each other and kill some enemies
