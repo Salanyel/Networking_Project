@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="class_enemy_spawner" kind="class" language="C#" prot="public">
+    <compoundname>EnemySpawner</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NetworkBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_enemy_spawner_1a95e6c9cd1e250c1713a159a6c9afa09d" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject EnemySpawner.m_enemyPrefab</definition>
+        <argsstring></argsstring>
+        <name>m_enemyPrefab</name>
+        <briefdescription>
+<para>Prefab to instantiate for the enemies </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Objects/EnemySpawner.cs" line="13" column="1" bodyfile="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Objects/EnemySpawner.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_spawner_1ab962d13c00da419193aab750a5e036a4" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int EnemySpawner.m_numberOfEnemies</definition>
+        <argsstring></argsstring>
+        <name>m_numberOfEnemies</name>
+        <briefdescription>
+<para>Enemies number to spawn </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Objects/EnemySpawner.cs" line="18" column="1" bodyfile="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Objects/EnemySpawner.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_enemy_spawner_1a5af094d0bc3a4af18c59ba75810b644b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void EnemySpawner.OnStartServer</definition>
+        <argsstring>()</argsstring>
+        <name>OnStartServer</name>
+        <briefdescription>
+<para>Override: function called on the server / Generate a random number of enemies </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Objects/EnemySpawner.cs" line="23" column="1" bodyfile="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Objects/EnemySpawner.cs" bodystart="23" bodyend="34"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class used to spawn enemies </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="9">
+        <label>NetworkBehaviour</label>
+      </node>
+      <node id="8">
+        <label>EnemySpawner</label>
+        <link refid="class_enemy_spawner"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="11">
+        <label>NetworkBehaviour</label>
+      </node>
+      <node id="10">
+        <label>EnemySpawner</label>
+        <link refid="class_enemy_spawner"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Objects/EnemySpawner.cs" line="8" column="1" bodyfile="D:/GitHub/Networking_Project/NetworkingProject/Assets/Scripts/Objects/EnemySpawner.cs" bodystart="7" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_enemy_spawner_1a95e6c9cd1e250c1713a159a6c9afa09d" prot="public" virt="non-virtual"><scope>EnemySpawner</scope><name>m_enemyPrefab</name></member>
+      <member refid="class_enemy_spawner_1ab962d13c00da419193aab750a5e036a4" prot="public" virt="non-virtual"><scope>EnemySpawner</scope><name>m_numberOfEnemies</name></member>
+      <member refid="class_enemy_spawner_1a5af094d0bc3a4af18c59ba75810b644b" prot="public" virt="non-virtual"><scope>EnemySpawner</scope><name>OnStartServer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

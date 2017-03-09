@@ -1,0 +1,101 @@
+.TH "PlayerController" 3 "Thu Mar 9 2017" "Networking_Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+PlayerController \- Script to manager the control of a player  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits NetworkBehaviour\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "override void \fBOnStartLocalPlayer\fP ()"
+.br
+.RI "\fIOverride: Behavior only done by the local player at the start \fP"
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "float \fBm_scaleHorizontal\fP = 150\&.0f"
+.br
+.RI "\fIHorizontal scale for the displacement \fP"
+.ti -1c
+.RI "float \fBm_scaleVertical\fP = 3\&.0f"
+.br
+.RI "\fIVertical scale for the displacement \fP"
+.ti -1c
+.RI "GameObject \fBm_bulletPrefab\fP"
+.br
+.RI "\fIFields for the bullet \fP"
+.ti -1c
+.RI "Transform \fBm_bulletSpawn\fP"
+.br
+.RI "\fISpawn for the bullets \fP"
+.ti -1c
+.RI "float \fBm_bulletSpeed\fP = 6\&.0f"
+.br
+.RI "\fI\fBBullet\fP speed \fP"
+.ti -1c
+.RI "float \fBm_bulletLifeTime\fP = 2\&.0f"
+.br
+.RI "\fI\fBBullet\fP life time after its creation \fP"
+.ti -1c
+.RI "Vector3 \fBm_cameraPosition\fP"
+.br
+.RI "\fIPosition to move the camera to the right position to follow the player \fP"
+.ti -1c
+.RI "Vector3 \fBm_cameraRotation\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Script to manager the control of a player 
+
+
+.SH "Member Function Documentation"
+.PP 
+.SS "override void PlayerController\&.OnStartLocalPlayer ()"
+
+.PP
+Override: Behavior only done by the local player at the start 
+.SH "Member Data Documentation"
+.PP 
+.SS "float PlayerController\&.m_bulletLifeTime = 2\&.0f"
+
+.PP
+\fBBullet\fP life time after its creation 
+.SS "GameObject PlayerController\&.m_bulletPrefab"
+
+.PP
+Fields for the bullet 
+.SS "Transform PlayerController\&.m_bulletSpawn"
+
+.PP
+Spawn for the bullets 
+.SS "float PlayerController\&.m_bulletSpeed = 6\&.0f"
+
+.PP
+\fBBullet\fP speed 
+.SS "Vector3 PlayerController\&.m_cameraPosition"
+
+.PP
+Position to move the camera to the right position to follow the player 
+.SS "Vector3 PlayerController\&.m_cameraRotation"
+
+.SS "float PlayerController\&.m_scaleHorizontal = 150\&.0f"
+
+.PP
+Horizontal scale for the displacement 
+.SS "float PlayerController\&.m_scaleVertical = 3\&.0f"
+
+.PP
+Vertical scale for the displacement 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Networking_Project from the source code\&.
